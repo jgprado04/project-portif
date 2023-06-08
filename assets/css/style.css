@@ -19,7 +19,6 @@
 
 .container {
     max-width: 1200px;
-    height: 100px;
     margin: auto;
 }
 
@@ -58,6 +57,10 @@ p2 {
 }
 
 /* Here are the itens of header */
+
+.header {
+    height: 100px;
+}
 
 header {
     background-color: #09182e;
@@ -154,4 +157,52 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+
+
+/* Here is the section of training */
+
+.section-training {
+    background-color: #09182e;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.elements-trainings h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.elements-training {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.elements-trainings p1::before {
+    content: "➥";
+    color: #1e8dd7;
+}
+
+.elements-trainings ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.elements-training ul li {
+    color: #747c94;
+    margin-top: 5px;
+}
+
+.elements-training .button {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.elements-training-left,
+.elements-training-right {
+    flex: 1;
 }
