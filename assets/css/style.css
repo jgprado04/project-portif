@@ -1,0 +1,149 @@
+/* Colors for use 
+#09182e - Dark Blue
+#747c94 - Clay
+#00ced1 - Blue White
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Here are the same items */
+
+.container {
+    max-width: 1200px;
+    height: 100px;
+    margin: auto;
+}
+
+span {
+    color: #00ced1;
+}
+
+.button {
+    background-color: #00ced1;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.button:hover {
+    background-color: rgba(0, 206, 209, 0.9);
+}
+
+p1 {
+    color: #00ced1;
+}
+
+h1 {
+    color: #FFFF;
+    font-size: 50px;
+}
+
+h2 {
+    color: #747c94;
+    font-size: 30px;
+}
+
+p2 {
+    color: #747c94;
+}
+
+/* Here are the itens of header */
+
+header {
+    background-color: #09182e;
+}
+
+.header-elements {
+    height: 100%;
+    display: flex;
+}
+
+.header-elements-left {
+    align-items: center;
+    display: flex;
+    width: 300px;
+}
+
+.header-elements-left img {
+    width: 60px;
+    margin-left: 10px;
+}
+
+.header-elements-right {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.header-elements-right nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-elements-right nav ul li a {
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 15px;
+    color: #747c94;
+    font-weight: 500;
+}
+
+.header-elements-right nav ul li a:hover {
+    color: #FFFF;
+}
+
+.header-elements-right-button {
+    margin-right: 10px;
+}
+
+/* Here is the section banner */
+
+.section-banner {
+    background-color: #09182e;
+    display: flex;
+    height: calc(100vh - 100px);
+}
+
+.section-banner-elements-left,
+.section-banner-elements-right {
+    flex: 1;
+}
+
+.section-banner-elements-left-elements {
+    padding: 100px;
+}
+
+.section-banner-elements-left-elements h1 {
+    margin-top: 10px;
+}
+
+.section-banner-elements-left-elements h2 {
+    margin-bottom: 10px;
+}
+
+.section-banner-elements-left-elements p2 a {
+    text-decoration: none;
+    color: #00ced1;
+}
+
+.section-banner-elements-left-elements p2 a:hover {
+    font-weight: 600;
+}
+
+.section-banner-elements-right {
+    background-image: url("../../img/my-photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
