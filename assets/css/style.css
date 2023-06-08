@@ -29,9 +29,10 @@ span {
 
 .button {
     background-color: #00ced1;
+    border-radius: 3px;
+    color: #FFFF;
     text-decoration: none;
     padding: 10px 20px;
-    border-radius: 3px;
 }
 
 .button:hover {
@@ -139,6 +140,13 @@ header {
 
 .section-banner-elements-left-elements p2 a:hover {
     font-weight: 600;
+}
+
+.section-banner-elements-left-elements .button {
+    display: inline-block;
+    margin-top: 60px;
+    padding: 20px 30px;
+    font-size: 20px;
 }
 
 .section-banner-elements-right {
